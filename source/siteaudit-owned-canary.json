@@ -1,0 +1,82 @@
+{
+  "id": "p3-canary-orbitledger-cloud",
+  "reviewPacket": "tests/fixtures/owned-canary-fleet.md",
+  "profile": "orbitledger-cloud",
+  "layout": "saas",
+  "surfaceModel": "global treasury and close-operations SaaS",
+  "provider": "cloudflare-pages",
+  "status": "public",
+  "owner": "ops",
+  "url": "https://p3-canary-orbitledger-cloud.xlpha.com/",
+  "stack": "phoenix-liveview",
+  "install": "both",
+  "pageCount": 6,
+  "representativePaths": [
+    "/",
+    "/platform/intercompany-close/",
+    "/pricing/",
+    "/compare/spreadsheets-vs-orbitledger/"
+  ],
+  "pages": [
+    {
+      "route": "/",
+      "title": "OrbitLedger Cloud | Treasury visibility and intercompany close software",
+      "canonical": "https://p3-canary-orbitledger-cloud.xlpha.com/",
+      "quirks": [
+        "compare-to-pricing-loop",
+        "resource-to-platform-loop"
+      ],
+      "eyebrow": "Treasury and close operations SaaS"
+    },
+    {
+      "route": "/platform/intercompany-close/",
+      "title": "Intercompany close platform | OrbitLedger Cloud",
+      "canonical": "https://p3-canary-orbitledger-cloud.xlpha.com/platform/intercompany-close/",
+      "quirks": [
+        "platform-to-resource-loop",
+        "shared-close-language"
+      ],
+      "eyebrow": "Platform route"
+    },
+    {
+      "route": "/solutions/treasury-visibility/",
+      "title": "Treasury visibility | OrbitLedger Cloud",
+      "canonical": "https://p3-canary-orbitledger-cloud.xlpha.com/solutions/treasury-visibility/",
+      "quirks": [
+        "solution-to-pricing-loop",
+        "shared-finance-language"
+      ],
+      "eyebrow": "Solution route"
+    },
+    {
+      "route": "/pricing/",
+      "title": "Pricing | OrbitLedger Cloud",
+      "canonical": "https://p3-canary-orbitledger-cloud.xlpha.com/pricing/",
+      "quirks": [
+        "pricing-to-resource-loop",
+        "implementation-posture-copy"
+      ],
+      "eyebrow": "Pricing"
+    },
+    {
+      "route": "/resources/quarter-end-close-playbook/",
+      "title": "Quarter-end close playbook | OrbitLedger Cloud",
+      "canonical": "https://p3-canary-orbitledger-cloud.xlpha.com/resources/quarter-end-close-playbook/",
+      "quirks": [
+        "resource-to-pricing-loop",
+        "shared-close-language"
+      ],
+      "eyebrow": "Resource route"
+    },
+    {
+      "route": "/compare/spreadsheets-vs-orbitledger/",
+      "title": "Spreadsheets vs OrbitLedger | OrbitLedger Cloud",
+      "canonical": "https://p3-canary-orbitledger-cloud.xlpha.com/compare/spreadsheets-vs-orbitledger/",
+      "quirks": [
+        "compare-route-copy-overlap",
+        "compare-to-pricing-loop"
+      ],
+      "eyebrow": "Comparison route"
+    }
+  ]
+}
