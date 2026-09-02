@@ -1,11 +1,15 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "sampleId": "orbitledger-cloud",
   "sourceFixtureId": "p3-canary-orbitledger-cloud",
   "nestedPath": "/platform/intercompany-close/",
   "repository": "spyfu/siteaudit-demo-orbitledger-cloud",
-  "cloudflarePagesProject": "siteaudit-demo-orbitledger-cloud",
-  "productionBranch": "demo-01",
-  "publicUrl": "https://siteaudit-demo-orbitledger-cloud.pages.dev/",
-  "editUrl": "https://github.com/spyfu/siteaudit-demo-orbitledger-cloud/edit/demo-01/siteaudit-head.html"
+  "cloudflarePagesProjectBase": "siteaudit-demo-orbitledger-cloud",
+  "productionBranches": [
+    "demo-01",
+    "demo-02",
+    "demo-03",
+    "demo-04",
+    "demo-05"
+  ]
 }
